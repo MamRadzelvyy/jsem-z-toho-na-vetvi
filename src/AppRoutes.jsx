@@ -14,6 +14,7 @@ export default function AppRoutes() {
           <Route path="/rip" element={<Danmáraka />} />
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/stranka" element={<Stranka />} />
         </Routes>
       </BrowserRouter>
     </>
